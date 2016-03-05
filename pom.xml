@@ -428,5 +428,5 @@
 		</profile>
    </profiles>
 
-    <url>demopetclinic</url>
+    <url>http://192.168.1.24:8081/nexus/content/repositories/releases/</url>
 </project>
