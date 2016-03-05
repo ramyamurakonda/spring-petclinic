@@ -272,6 +272,21 @@
             <artifactId>json-simple</artifactId>
         </dependency>
     </dependencies>
+    
+    <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://192.168.1.24:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://192.168.1.24:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        
+        
+    </distributionManagement>
 
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
@@ -428,5 +443,5 @@
 		</profile>
    </profiles>
 
-    <url>http://192.168.1.24:8081/nexus/content/repositories/releases/</url>
+
 </project>
