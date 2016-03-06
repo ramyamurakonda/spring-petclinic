@@ -277,12 +277,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+            <url>http://192.168.1.24:8081/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://192.168.1.24:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
         
         
@@ -332,6 +332,9 @@
                 <configuration>
                     <warName>petclinic</warName>
                 </configuration>
+            </plugin>
+            <plugin>
+                
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
