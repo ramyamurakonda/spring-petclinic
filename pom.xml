@@ -333,9 +333,7 @@
                     <warName>petclinic</warName>
                 </configuration>
             </plugin>
-            <plugin>
-                
-            </plugin>
+           
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-eclipse-plugin</artifactId>
